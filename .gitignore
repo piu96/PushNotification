@@ -137,3 +137,12 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Ignore everything
+*
+# But not these files!
+!models.js
+!server.js
+!README.md
+!package.json
+!package-lock.json
+!.env.example
